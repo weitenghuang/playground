@@ -1,0 +1,30 @@
+{
+  "name": "playground",
+  "version": "0.0.1",
+  "description": "A playground project to test out some public opensource libraries and tools",
+  "main": "src/main.js",
+  "scripts": {
+    "start": "node src/main.js",
+    "test": "nodeunit test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/weitenghuang/playground.git"
+  },
+  "author": "weiteng.huang@gmail.com",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/weitenghuang/playground/issues"
+  },
+  "homepage": "https://github.com/weitenghuang/playground#readme",
+  "dependencies": {
+    "assert-plus": "0.1.2",
+    "bunyan": "0.21.1",
+    "posix-getopt": "1.0.0",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {
+    "eslint": "^2.7.0",
+    "nodeunit": "0.8.0"
+  }
+}
